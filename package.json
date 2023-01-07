@@ -1,0 +1,23 @@
+{
+  "name": "Vertex cover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vivagraphjs": "^0.12.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./utils/graph.js",
+      "import": "./utils/graph.mjs"
+    }
+
+  }
+}
